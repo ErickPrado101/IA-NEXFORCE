@@ -1,7 +1,7 @@
 # Teste_API_Python
 
 ```markdown
-# Nome do Projeto
+# Teste_API_Python
 
 Descrição concisa do seu projeto.
 
@@ -75,11 +75,9 @@ Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LIC
 
 Se você tiver dúvidas ou sugestões, entre em contato:
 
-Seu Nome - seu@email.com
+Seu Nome - epg1.prado@gmail.com
 
-Link do Projeto: [https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
+Link do LinkedIN: [https://www.linkedin.com/in/érick-prado-gonçalves-041076200/)
 ```
 
-Substitua os marcadores de lugar como `<Nome do Projeto>`, `<versão>`, `<seu-usuario>`, `<seu-repositorio>`, `<sua-feature>`, `<seu-email.com>` e outros com informações relevantes ao seu projeto.
-
-Este arquivo README.md fornece informações essenciais para outros desenvolvedores entenderem, instalarem e contribuírem para o seu projeto. Certifique-se de manter este arquivo atualizado à medida que o projeto evolui.
+l
