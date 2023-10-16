@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import openai
 import os
 
 
@@ -31,6 +32,8 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+OPENAI_API_KEY = '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'
+openai.api_key = OPENAI_API_KEY
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -42,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'oauth2_provider',
     'mailer',
+    'chatbot',
 
 ]
 REST_FRAMEWORK = {
