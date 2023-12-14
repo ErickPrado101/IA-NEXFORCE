@@ -1,0 +1,40 @@
+#chat-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #chat {
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .user-message {
+    background-color: #e6f7ff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  #user-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
