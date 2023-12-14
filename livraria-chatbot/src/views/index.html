@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>saraiva Chatbot</title>
+</head>
+<body>
+  <h1>saraiva Chatbot</h1>
+  <label for="userInput"> Descrição:</label>
+  <input type="text" id="userInput" />
+  <button onclick="analyzeProduct()"> Análise de produto</button>
+  <div id="result"></div>
+
+  <script>
+    async function analyzeProduct() {
+      const userInput = document.getElementById('userInput').value;
+      const response = await fetch('/chatbot/analyze-product', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ userInput })
+      });
+      const result = await response.json();
+      document.getElementById('result').innerText = `Analyzed Product: ${result.analyzedProduct}`;
+    }
+  </script>
+</body>
+</html>
