@@ -3,7 +3,7 @@
 import openai
 
 
-openai.api_key = "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"
+openai.api_key = "sua_key_string"
 
 def gerar_resposta(messages):
     
