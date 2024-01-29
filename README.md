@@ -9,6 +9,7 @@ Antes de começar, é necessário configurar a API da OpenAI. Siga as etapas aba
 1. Crie uma conta na [OpenAI](https://platform.openai.com/signup).
 2. Obtenha sua chave de API.
 3. Ponha a sua chave na parte openai.api_key = "sua_key_string" e no config_chatkey.py
+4. Dê no terminal de comando:
 
 
 
