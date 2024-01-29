@@ -1,4 +1,3 @@
-```markdown
 # Chatbot de Suporte ao Usuário com OpenAI
 
 Este projeto implementa um assistente de chat (chatbot) em Python utilizando a API da OpenAI. O chatbot é projetado para fornecer suporte ao usuário respondendo a perguntas com base em um modelo de linguagem treinado.
@@ -14,8 +13,6 @@ Crie um arquivo chamado `.env` na raiz do projeto e adicione a chave da API:
 
 ```plaintext
 OPENAI_API_KEY=SuaChaveDaAPIAqui
-```
-
 Instale as dependências:
 
 ```bash
